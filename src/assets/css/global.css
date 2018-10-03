@@ -1,0 +1,21 @@
+/*
+ * Global Stylesheet that ties in all other global styles.
+ * by MorpheusZero
+ *
+ * GITHUB: http://www.github.com/MorpheusZero/factorio-zero-launcher
+ * WEBSITE: http://www.dylanlegendre.com/
+ */
+
+/* Always import normalize on every page. */
+@import url('normalize.css');
+
+/* Import Google Open Sans Font */
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+
+/* Defaults for every page */
+html, body {
+    padding: 0;
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+    background-color: whitesmoke;
+}

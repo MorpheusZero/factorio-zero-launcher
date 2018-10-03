@@ -1,0 +1,26 @@
+{
+  "name": "factorio-zero-launcher",
+  "version": "1.0.1",
+  "description": "A multi-platform Mod Manager and Launcher for Factorio",
+  "main": "src/app.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MorpheusZero/factorio-zero-launcher.git"
+  },
+  "keywords": [],
+  "author": "MorpheusZero",
+  "license": "ISMITC",
+  "bugs": {
+    "url": "https://github.com/MorpheusZero/factorio-zero-launcher/issues"
+  },
+  "homepage": "https://github.com/MorpheusZero/factorio-zero-launcher#readme",
+  "devDependencies": {
+    "electron": "2.0.11"
+  },
+  "dependencies": {
+    "express": "^4.16.3"
+  }
+}

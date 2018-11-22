@@ -1,6 +1,6 @@
 {
   "name": "factorio-zero-launcher",
-  "version": "1.0.1",
+  "version": "1.0.1-preview",
   "description": "A multi-platform Mod Manager and Launcher for Factorio",
   "main": "src/app.js",
   "scripts": {
@@ -12,7 +12,7 @@
   },
   "keywords": [],
   "author": "MorpheusZero",
-  "license": "ISMITC",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/MorpheusZero/factorio-zero-launcher/issues"
   },

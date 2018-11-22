@@ -2,10 +2,22 @@
 <html>
   <head>
     <meta charset="UTF-8">
-    <title>ZeroLauncher v1.0.1 | Dashboard</title>
+    <title>ZeroLauncher v1.0.1-preview | Dashboard</title>
     <link rel = "stylesheet" type = "text/css" href = "assets/css/global.css" />
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>    
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.min.js"></script>    
   </head>
   <body>
-    <h1>Zero Launcher Alpha</h1>
+    <!--// PREVIEW WARNING //-->
+    <div id="previewWarning" class="padding-normal">
+      <div style="border: 1px solid red; box-shadow: 1px 1px 3px lightcoral" class="padding-normal background-orange">
+        <h3>Factorio Zero Launcher Alpha Preview Build</h3>
+        <p>Please note that this is a preview build and is not what the final product or build may look or function like. Use at your own risk!</p>
+        <p>https://github.com/MorpheusZero/factorio-zero-launcher by MorpheusZero</p>
+        <a id="dismissPreviewWarning" href="javascript:void(0)">Dismiss</a>
+      </div>
+    </div>
+    <!--// Load Page Scripts //-->
+    <script src="assets/js/ui/index/page-behaviours.js"></script>
   </body>
 </html>

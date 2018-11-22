@@ -10,7 +10,7 @@ const APP_CONFIG = {
 // be closed automatically when the JavaScript object is garbage collected.
 const GLOBALS = {
     app: app,
-    server: require('./server.js').Server,
+    server: require('./server.js').Server(app),
     mainWindow: null
 };
 
@@ -21,7 +21,10 @@ const createWindow = () => {
       width: 800,
       height: 600,
       webPreferences: {
-        webSecurity: false
+        webSecurity: false,
+        allowRunningInsecureContent: true,
+        javascript: true,
+        nodeIntegration: false
       }
     });
 

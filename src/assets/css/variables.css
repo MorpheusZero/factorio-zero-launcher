@@ -1,0 +1,25 @@
+/*
+ * Variables to be used throughout the stylesheets.
+ * by MorpheusZero
+ *
+ * GITHUB: http://www.github.com/MorpheusZero/factorio-zero-launcher
+ * WEBSITE: http://www.dylanlegendre.com/
+ */
+
+ /* COLORS */
+ :root {
+     --color-black: black;
+     --color-white: whitesmoke;
+     --color-red: red;
+     --color-gray: gray;
+     --color-orange: orange;
+     --color-pink: pink;
+ }
+
+ /* SIZES */
+ :root {
+     --size-reset: 0;
+     --size-normal: 10px;
+     --size-sm: 6px;
+     --size-lg: 16px;
+ }
